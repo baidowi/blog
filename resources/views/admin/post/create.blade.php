@@ -48,7 +48,7 @@
 
 	<div class="form-group">
 		<label>Kontent</label>
-		<textarea name="content" class="form-control" cols="30" rows="10">
+		<textarea name="content" class="form-control" cols="30" id="content" rows="10">
 			
 		</textarea>
 	</div>
@@ -63,4 +63,7 @@
 	</div>
 
 </form>
+
+
+
 @endsection

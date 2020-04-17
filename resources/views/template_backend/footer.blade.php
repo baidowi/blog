@@ -18,6 +18,7 @@
   <script src="{{ asset('public/assets/modules/moment.min.js') }}"></script>
   <script src="{{ asset('public/assets/js/stisla.js') }}"></script>
   <script src="{{ asset('public/assets/modules/select2/dist/js/select2.full.min.js') }}"></script>
+  <script src="{{ asset('public/ckeditor/ckeditor.js') }}"></script>
 
   
   <!-- JS Libraies -->
@@ -27,5 +28,9 @@
   <!-- Template JS File -->
   <script src="{{ asset('public/assets/js/scripts.js') }}"></script>
   <script src="{{ asset('public/assets/js/custom.js') }}"></script>
+
+  <script>
+ CKEDITOR.replace( 'content' );
+</script>
 </body>
 </html>
